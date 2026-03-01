@@ -51,7 +51,50 @@ if(11 > 12) {
 
 
 
+// 4. Loops:-
+// for
+for (var i = 0; i < 11; i++) {
+    console.log(i);
+}
+
+// while
+var k = 12
+while(k < 20) {
+    console.log(k);
+    k++;
+}
 
 
 
+// 5. Functions:- 
+function helloBolo() {
+    console.log("Hello");
+}
+helloBolo();
 
+function abcd(a, b, c) {
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(a, b, c);
+}
+abcd(12, 13, 14);
+
+
+
+// 6. Arrays(used to store multiple values):-
+var arr = [13, 222, 36, 4, 59, 75];
+
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr[4]);
+console.log(arr[0, 1, 2]); // return the last value
+
+let p = (1, 3, 5);
+console.log(p); // return the last value "5"
+
+console.log(arr.push(50)); // return new length
+console.log(arr.pop()); // return the removed element
+console.log(arr.unshift(29)); // return new length
+console.log(arr.shift()); // return the removed element
+console.log(arr.splice(3, 2)) // remove 2 values from 3rd index

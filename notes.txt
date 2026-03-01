@@ -1,0 +1,13 @@
+Arguments and Parameters:-
+    1. Arguments -> real value jo hum dete hai func chalate waqt
+    2. Parameters -> variables jinme value store hoti hai argument vali 
+
+
+Arrays:-
+    1. push(x) -> adds x at the last of the array.
+    2. pop() -> removes the last element of the array.
+    3. unshift(x) -> adds x at the beginning of the array.
+    4. shift() -> removes a value from the beginning of the array.
+    5. splice(x, y) -> removes y values from xth index.
+
+    push and unshift removes the new length of the array but pop and shift returns the removed element.
