@@ -11,3 +11,7 @@ Arrays:-
     5. splice(x, y) -> removes y values from xth index.
 
     push and unshift removes the new length of the array but pop and shift returns the removed element.
+
+
+Objects:-
+    1. In Objects, keys are known as props/properties while the keys having a value as function are known as methods. 

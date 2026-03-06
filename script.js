@@ -98,3 +98,20 @@ console.log(arr.pop()); // return the removed element
 console.log(arr.unshift(29)); // return new length
 console.log(arr.shift()); // return the removed element
 console.log(arr.splice(3, 2)) // remove 2 values from 3rd index
+
+
+
+// 7. Objects:- 
+var watch = {
+    brand: "Titan",
+    price: "16k", 
+    color: "Silver",
+    type: "Automatic",
+    isDigital: false, 
+    
+}
+
+console.log(watch);
+console.log(watch.type);
+console.log(watch.brand);
+console.log(watch.isDigital);
