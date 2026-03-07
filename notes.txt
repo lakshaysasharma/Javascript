@@ -15,3 +15,7 @@ Arrays:-
 
 Objects:-
     1. In Objects, keys are known as props/properties while the keys having a value as function are known as methods. 
+
+
+Var, let and const:-
+    There are some features which JS doesn't have but it can use features from window which is a box of features given by browser to use with JS.
