@@ -38,3 +38,9 @@ Conversion Operations:-
     "Lakshay"                NaN
 
     In ("1" + 2 + 2) all the values will be converted to string and concatenate while in (1 + 2 + "2") 1 and 2 gets added and 3 get concatenate with 2 and become 32.
+
+
+Comparison:-
+    In ("02" > 1) javascript automatically converts "02" to 2 and gives the output true but this does not give correct output always. So, We avoid comparing different data types values.
+
+    In (null > 0) and (null >= 0) javascript converts null to numeric value 0 while in (null == 0) it does not.
