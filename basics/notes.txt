@@ -19,3 +19,10 @@ Objects:-
 
 Var, let and const:-
     There are some features which JS doesn't have but it can use features from window which is a box of features given by browser to use with JS.
+
+
+NaN:-
+    console.log(0 / 0);      // NaN
+    console.log("hello" * 5); // NaN
+    console.log(Math.sqrt(-1)); // NaN
+    These operations cannot produce a valid numeric result, so JavaScript returns NaN.

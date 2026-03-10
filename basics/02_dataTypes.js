@@ -16,8 +16,15 @@ let state = null
 
 // number => 2 to power 53
 // bigInt
-// String => ""
+// string => ""
 // boolean => true/false
 // null => standalone value
 // undefined => value not assigned yet
-// symbol
+// symbol => unique
+
+
+// object
+
+console.log(typeof age);
+console.log(typeof null);  // object
+console.log(typeof undefined);  // undefined
