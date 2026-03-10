@@ -44,3 +44,8 @@ Comparison:-
     In ("02" > 1) javascript automatically converts "02" to 2 and gives the output true but this does not give correct output always. So, We avoid comparing different data types values.
 
     In (null > 0) and (null >= 0) javascript converts null to numeric value 0 while in (null == 0) it does not.
+
+
+Datatypes summary:-
+    javascript is a dynamically typed language.
+    data type of null is object.
