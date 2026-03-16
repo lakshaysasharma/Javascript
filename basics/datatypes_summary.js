@@ -1,4 +1,4 @@
-// Primitive 
+// Primitive:-
 // 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
@@ -9,26 +9,28 @@ let userEmail;  // undefined
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-// console.log(id === anotherId);
+// console.log(id === anotherId);  // false
 
 const bigNumber = 1498455465125265n
 // console.log(typeof bigNumber)  // bigint
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive):-
 // Arrays, Objects, Functions
 
 const heroes = ["Shaktimaan", "Naagraj", "Doga"]
+
 let myObj = {
     name: "Lakshay",
     age: 22,
 }
-// console.log(heroes);
-// console.log(myObj);
+console.log(heroes);
+console.log(myObj);
+
 
 const myFunction = function() {
     console.log("Hello world");
 }
 myFunction();
-console.log(typeof myFunction);  // object function / function
+console.log(typeof myFunction);  // object function/function

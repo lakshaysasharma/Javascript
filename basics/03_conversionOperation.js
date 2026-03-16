@@ -56,7 +56,7 @@ console.log(1 + 2 + "2")  // 32
 
 console.log(+true)  // this will give 1
 console.log(+"")  // this will give 0
-console.log(true+)  // this will give error
+// console.log(true+)  // this will give error
 
 let num1, num2, num3
 num1 = num2 = num3 = 2 + 2
