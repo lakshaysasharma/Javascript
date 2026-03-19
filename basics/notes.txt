@@ -49,3 +49,6 @@ Comparison:-
 Datatypes summary:-
     javascript is a dynamically typed language.
     data type of null is object.
+
+    All the primitive values go to stack and creates a copy if we assign it to another variable, while the non-primitive variables store at the stack memory but take reference from the heap memory and once a change is done it the heap memory it will be changed everywhere.
+    

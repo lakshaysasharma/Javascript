@@ -19,18 +19,39 @@ const bigNumber = 1498455465125265n
 // Reference (Non primitive):-
 // Arrays, Objects, Functions
 
-const heroes = ["Shaktimaan", "Naagraj", "Doga"]
+const heroes = ["Iron man", "Batman", "Superman"]
 
 let myObj = {
     name: "Lakshay",
     age: 22,
 }
-console.log(heroes);
-console.log(myObj);
+// console.log(heroes);
+// console.log(myObj);
 
 
 const myFunction = function() {
     console.log("Hello world");
 }
-myFunction();
-console.log(typeof myFunction);  // object function/function
+// myFunction();
+// console.log(typeof myFunction);  // object function/function
+
+
+
+// ---------------------------------------------
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let myYouTubeName = "lakshaysharmadotcom"
+let anotherName = myYouTubeName
+anotherName = "myanothername"
+// console.log(myYouTubeName);
+// console.log(anotherName);
+
+
+let userOne = {
+    email: "user1@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "user2@google.com"
+console.log(userOne);
+console.log(userTwo);
