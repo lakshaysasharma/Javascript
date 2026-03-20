@@ -9,10 +9,10 @@ let userEmail;  // undefined
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-// console.log(id === anotherId);  // false
+console.log(id === anotherId);  // false
 
 const bigNumber = 1498455465125265n
-// console.log(typeof bigNumber)  // bigint
+console.log(typeof bigNumber)  // bigint
 
 
 
@@ -25,15 +25,15 @@ let myObj = {
     name: "Lakshay",
     age: 22,
 }
-// console.log(heroes);
-// console.log(myObj);
+console.log(heroes);
+console.log(myObj);
 
 
 const myFunction = function() {
     console.log("Hello world");
 }
-// myFunction();
-// console.log(typeof myFunction);  // object function/function
+myFunction();
+console.log(typeof myFunction);  // object function/function
 
 
 
@@ -43,8 +43,8 @@ const myFunction = function() {
 let myYouTubeName = "lakshaysharmadotcom"
 let anotherName = myYouTubeName
 anotherName = "myanothername"
-// console.log(myYouTubeName);
-// console.log(anotherName);
+console.log(myYouTubeName);
+console.log(anotherName);
 
 
 let userOne = {

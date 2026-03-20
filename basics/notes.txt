@@ -52,3 +52,7 @@ Datatypes summary:-
 
     All the primitive values go to stack and creates a copy if we assign it to another variable, while the non-primitive variables store at the stack memory but take reference from the heap memory and once a change is done it the heap memory it will be changed everywhere.
     
+
+String:-
+    substring() and slice() excludes the end index character. slice() supports negative values while substring() don't.
+    substring() swaps values i.e. substring(5, 2) will become substring(2, 5) while slice don't. substring() converts invalid values to 0 while splice() keeps behavior consitent with array slicing.
