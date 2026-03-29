@@ -57,3 +57,7 @@ String:-
     length is a property not a function, so we don't use () after length.
     substring() and slice() excludes the end index character. slice() supports negative values while substring() don't.
     substring() swaps values i.e. substring(5, 2) will become substring(2, 5) while slice don't. substring() converts invalid values to 0 while splice() keeps behavior consitent with array slicing.
+
+
+Arrays:-
+    push() change the whole array for future, but concat() returns the concatenated array but doesn't change the original array.
