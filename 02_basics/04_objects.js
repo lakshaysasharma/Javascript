@@ -8,24 +8,24 @@ const regularUser = {
         }
     }
 }
-// console.log(regularUser.fullname.userfullname);
-// console.log(regularUser.fullname.userfullname.firstname);
+console.log(regularUser.fullname.userfullname);
+console.log(regularUser.fullname.userfullname.firstname);
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
 // const obj3 = {obj1, obj2}
-// console.log(obj3);  // gives object within object which is not good
+console.log(obj3);  // gives object within object which is not good
 
 // const obj3 = Object.assign(obj1, obj2)  // both the values will go to obj1, which is not correct
 // const obj3 = Object.assign({}, obj1, obj2)  // both the values will go to {} now
-// console.log(obj3);
+console.log(obj3);
 
-// console.log(Object.assign({}, obj1, obj2, obj4));
+console.log(Object.assign({}, obj1, obj2, obj4));
 
 const obj3 = {...obj1, ...obj2, ...obj4};
-// console.log(obj3);
+console.log(obj3);
 
 const users = [
     {
@@ -49,12 +49,12 @@ const tinderUser = {}
 tinderUser.id = "123abc"
 tinderUser.name = "Lakshay"
 tinderUser.isLoggedIn = false
-// console.log(tinderUser);
+console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
 
