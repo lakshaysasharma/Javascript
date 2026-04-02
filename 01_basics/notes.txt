@@ -61,3 +61,8 @@ String:-
 
 Arrays:-
     push() change the whole array for future, but concat() returns the concatenated array but doesn't change the original array.
+
+
+Scopes:- 
+    By default, a variable has "var" type if we do not assign it anything.
+    var is global scoped, while let and const are block scoped.
