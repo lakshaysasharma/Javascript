@@ -4,11 +4,11 @@ if (true) {
     let a = 10
     const b = 20
     var c = 30
-    // console.log("Inner a:", a);
+    console.log("Inner a:", a);
 }
-// console.log(a);
-// console.log(b);
-// console.log(c);
+console.log(a);
+console.log(b);
+console.log(c);
 
  
 function one() {
@@ -18,11 +18,11 @@ function one() {
         const website = "youtube"
         console.log(username);
     }
-    // console.log(website);
+    console.log(website);
 
     two()  // this will console website
 }
-// one()  // this will not console anything, username will only be consoled when we call two()
+one()  // this will not console anything, username will only be consoled when we call two()
 
 
 if (true) {
@@ -31,9 +31,9 @@ if (true) {
         const website = "youtube"
         console.log(username + website);
     }
-    // console.log(website);
+    console.log(website);
 }
-// console.log(username);
+console.log(username);
 
 
 
