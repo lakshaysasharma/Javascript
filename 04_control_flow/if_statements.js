@@ -11,15 +11,15 @@ const temprature = 40
 if (temprature == 41) {
     console.log("executed");
 } else {
-    // console.log("not executed");
+    console.log("not executed");
 }
 
 const score = 200
 if (score > 100) {
     let power = "fly"  // block scoped
-    // console.log(`user power: ${power}`);
+    console.log(`user power: ${power}`);
 }
-// console.log(`user power: ${power}`);  // gives error because of block scoped nature of let
+console.log(`user power: ${power}`);  // gives error because of block scoped nature of let
 
 
 const balance = 1000
