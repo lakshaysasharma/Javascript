@@ -66,3 +66,6 @@ Arrays:-
 Scopes:- 
     By default, a variable has "var" type if we do not assign it anything.
     var is global scoped, while let and const are block scoped.
+
+If statement:- 
+     
