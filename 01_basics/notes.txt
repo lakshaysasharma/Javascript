@@ -69,3 +69,6 @@ Scopes:-
 
 Truthy:- 
     ?? is known as Nullish Coalescing Operator while ? is known as ternary operator.
+
+Break and continue:-
+    "Break" will end the loop while "continue" will skip the current iteration and continue the loop
