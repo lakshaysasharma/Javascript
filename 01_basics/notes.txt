@@ -72,3 +72,4 @@ Truthy:-
 
 Break and continue:-
     "Break" will end the loop while "continue" will skip the current iteration and continue the loop
+
