@@ -1,10 +1,10 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 const values = coding.forEach( (item) => {
-    // console.log(item);
+    console.log(item);
     return item  // forEach always return undefined whether you add return or not
 })
-// console.log(values);
+console.log(values);
 
 
 
@@ -23,7 +23,7 @@ myNums.forEach( (num) => {
     }
 })
 
-// console.log(newNums);
+console.log(newNums);
 
 
 
